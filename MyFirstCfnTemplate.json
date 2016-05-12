@@ -1,6 +1,6 @@
 {
 	"AWSTemplateFormatVersion": "2010-09-09",
-	"Description": "AWS Cloud-formation template to create a EC2 instance in an existing VPC in KrisCroaker Account",
+	"Description": "AWS Cloud-formation template to create a EC2 instance",
 	"Resources": {
 		"MyEC2Instance": {
 			"Type": "AWS::EC2::Instance",

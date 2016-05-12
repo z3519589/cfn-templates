@@ -1,6 +1,6 @@
 {
 	"AWSTemplateFormatVersion": "2010-09-09",
-	"Description": "AWS Cloud-formation template to create an EC2 instance in Kris Croaker Account",
+	"Description": "AWS Cloud-formation template to create an EC2 instance in Kris Croaker Account test1",
 	"Resources": {
 		"MyEC2Instance": {
 			"Type": "AWS::EC2::Instance",

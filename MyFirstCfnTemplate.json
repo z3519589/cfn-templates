@@ -1,0 +1,14 @@
+{
+	"AWSTemplateFormatVersion": "2010-09-09",
+	"Description": "AWS Cloud-formation template to create a EC2 instance in an existing VPC in KrisCroaker Account",
+	"Resources": {
+		"MyEC2Instance": {
+			"Type": "AWS::EC2::Instance",
+			"Properties": {
+				"ImageId": "ami-0c95b86f",
+				"InstanceType": "t2.micro",
+				"SubnetId": "subnet-aa3c90cf"
+			}
+		}
+	}
+}
